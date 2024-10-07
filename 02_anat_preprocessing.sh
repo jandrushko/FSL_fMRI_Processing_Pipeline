@@ -3,7 +3,7 @@
 echo '
 
 # ----------------------------------------------------------------------------------------------------------------------------------------------
-# Script name:      2_anat_preprocessing.sh
+# Script name:      02_anat_preprocessing.sh
 #
 # Version:          3
 #
@@ -64,7 +64,7 @@ fi
 #     For Loop to Run the Script       #
 #--------------------------------------#
 cd $rawdata
-for subject in sub-15 ; do
+for subject in sub-* ; do
     echo $subject
     if [ -d "$rawdata/$subject" ] ; then
         cd $rawdata/$subject
