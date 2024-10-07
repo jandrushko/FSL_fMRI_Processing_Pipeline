@@ -62,7 +62,7 @@ fix_threshold="20"
 #     For Loop to Run the Script       #
 #--------------------------------------#
 cd $derivatives
-for subject in sub-*; do
+for subject in sub-* ; do
     echo $subject
     if [ -d "$derivatives/$subject" ] ; then
         cd $derivatives/$subject
