@@ -3,7 +3,7 @@
 echo '
 
 # ----------------------------------------------------------------------------------------------------------------------------------------------
-# Script name:      4_slice_timing_conversion_for_fsl.sh
+# Script name:      04_slice_timing_conversion_for_fsl.sh
 #
 # Version:          1.0
 #
