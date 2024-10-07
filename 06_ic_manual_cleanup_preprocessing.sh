@@ -3,7 +3,7 @@
 echo '
 
 # ----------------------------------------------------------------------------------------------------------------------------------------------
-# Script name:      6_ic_manual_cleanup_preprocessing.sh
+# Script name:      06_ic_manual_cleanup_preprocessing.sh
 #
 # Version:          2.0
 #
@@ -55,7 +55,7 @@ derivatives=$WDIR/derivatives # All outputs will be placed in the derivatives di
 #     For Loop to Run the Script       #
 #--------------------------------------#
 cd $derivatives
-for subject in sub-13 ; do
+for subject in sub-* ; do
     echo $subject
     if [ -d "$derivatives/$subject" ] ; then
         cd $derivatives/$subject
