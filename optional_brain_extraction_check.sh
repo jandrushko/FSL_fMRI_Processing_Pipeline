@@ -3,7 +3,7 @@
 echo '
 
 # ----------------------------------------------------------------------------------------------------------------------------------------------
-# Script name:      1_anat_preprocessing.sh
+# Script name:      optional_brain_extraction_check.sh
 #
 # Version:          2
 #
@@ -12,13 +12,7 @@ echo '
 # Version Notes:    Version 2 makes changes to check if steps have already been completed, if so then skips.
 #                   Script saves outputs to a derivatives directory to conform to the BIDS standard.
 #
-# Description:      Script runs the following FSL tools to preprocess the T1w data
-#                   - fslreorient2std
-#                   - robustfov 
-#                   - bet 
-#                   - fast
-#                   - first 
-#                   - lesion_filling if a lesion mask exists
+# Description:      Views brain extracted imaging in FSLeyes
 #
 # Authors:          Justin W. Andrushko, PhD, Vice-Chancellor Fellow & Assistant Professor, Department of Sport, Exercise and Rehabilitation, Northumbria University
 #                   Brandon J. Forys, MA, PhD Student, Department of Psychology, University of British Columbia
