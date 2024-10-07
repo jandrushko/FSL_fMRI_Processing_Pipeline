@@ -3,7 +3,7 @@
 echo '
 
 # ----------------------------------------------------------------------------------------------------------------------------------------------
-# Script name:      5_first_level_melodic_preprocessing.sh
+# Script name:      05_first_level_melodic_preprocessing.sh
 #
 # Version:          3.0
 #
