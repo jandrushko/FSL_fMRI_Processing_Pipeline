@@ -3,7 +3,7 @@
 echo '
 
 # ----------------------------------------------------------------------------------------------------------------------------------------------
-# Script name:      1_bids_conversion.sh
+# Script name:      01_bids_conversion.sh
 #
 # Version:          1
 #
@@ -58,7 +58,7 @@ DATA=/home/fs0/yzg018/scratch/pfcl_study_X
 cd $sourcedata
 
 # TOP LOOP FOR MULTIPLE SESSIONS
-for subject in sub-15 ; do
+for subject in sub-* ; do
 	if [ -d "$sourcedata/$subject" ] ; then
 		echo "${subject}"
 		cd $sourcedata/$subject
