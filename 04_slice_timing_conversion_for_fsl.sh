@@ -53,7 +53,7 @@ derivatives=$WDIR/derivatives # All outputs will be placed in the derivatives di
 #     For Loop to Run the Script       #
 #--------------------------------------#
 cd $rawdata
-for subject in sub-15 ; do
+for subject in sub-* ; do
     echo $subject
     if [ -d "$rawdata/$subject" ] ; then
         cd $rawdata/$subject
