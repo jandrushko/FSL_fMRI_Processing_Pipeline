@@ -45,7 +45,7 @@ expand_files() {
 #     For Loop to Run the Script       #
 #--------------------------------------#
 cd $rawdata
-for subject in sub-15 ; do
+for subject in sub-* ; do
     if [ -d "$rawdata/$subject" ] ; then
         echo $subject
         cd $rawdata/$subject
